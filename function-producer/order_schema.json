@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "required": ["message_id", "message_type", "severity", "source", "created_at", "payload"],
+  "properties": {
+    "message_id": {
+      "type": "string"
+    },
+    "message_type": {
+      "type": "string",
+      "enum": ["order", "error"]
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["info", "warning", "error"]
+    },
+    "source": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}
