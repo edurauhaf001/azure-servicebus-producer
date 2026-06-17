@@ -1,2 +1,11 @@
 .venv/
 __pycache__/
+opentofu-lab/.terraform/
+opentofu-lab/.terraform.lock.hcl
+opentofu-lab/terraform.tfstate
+opentofu-lab/terraform.tfstate.backup
+opentofu-lab/.terraform/
+opentofu-lab/terraform.tfstate
+opentofu-lab/terraform.tfstate.backup
+opentofu-lab/.terraform.lock.hcl
+opentofu-lab/terraform.tfvars
